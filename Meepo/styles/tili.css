@@ -1,0 +1,72 @@
+img{
+    display: block;
+}
+
+.tili-section{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 0 auto;
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+
+}
+
+.column {
+    width: 30%;
+    min-width: 300px;
+}
+
+.left-sidebar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8px 0 0 150px;
+}
+
+.avatar {
+    height: 96px;
+    padding: 6px 0 0 28px;
+}
+
+.first-atrib {
+    padding: 0px 0 0 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    background: linear-gradient(to right, #286323, #7AF03C);
+    margin: 0 0 0 30px;
+}
+
+.atrib-plus {
+    color: gray;
+    font-size: 12px;
+    padding: 0 0 0 20px;
+}
+
+.second-atrib {
+    padding: 0px 0 0 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    background: linear-gradient(to right, #4344d0, #65e9f8);
+    margin: 0 0 0 30px;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.right-sidebar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
