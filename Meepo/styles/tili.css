@@ -2,6 +2,13 @@ img{
     display: block;
 }
 
+hr {
+    width: 80%;
+    height: 5px;
+    color: #fff;
+    background-color: #fff;
+}
+
 .tili-section{
     width:100%;
     display: flex;
@@ -11,6 +18,7 @@ img{
     margin: 0 auto;
     background-image: url(../img/image.png);
     background-repeat: no-repeat;
+    background-color: #111516;
 
 }
 
@@ -57,6 +65,34 @@ img{
     text-shadow: 1px 1px 2px black;
     background: linear-gradient(to right, #4344d0, #65e9f8);
     margin: 0 0 0 30px;
+}
+
+.attrib-image {
+    width: 32px;
+    margin: 0 0 0 8px;
+}
+
+.atrib {
+    display: flex;
+    justify-content: space-between;
+}
+
+.atrrib-extra {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.extra {
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+.atttributes-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #969696;
 }
 
 .roles {
