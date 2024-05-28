@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+.page {
+	max-width: 1000px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	counter-reset: activities;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 50px;
+	background-color: cadetblue;
+}
+
+.logo {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.header__nav {
+	margin-left: 30px;
+}
+
+.header__nav-link {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 2px solid transparent;
+	transition: 0.2s;
+	margin: 0 5px;
+}
+
+.header__nav-link:hover {
+	border-color: #fff;
+}
+
+.main {
+	padding: 30px;
+}
+
+.about {
+	display: flex;
+	align-items: center;
+	height: 70vh;
+}
+
+.title {
+	font-size: 28px;
+}
+
+.about__desc {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.about__col-2 {
+	margin-left: 40px;
+}
+
+.about__img {
+	width: 400px;
+	height: 100%;
+	object-fit: cover;
+}
+
+.activities,
+.education {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 40px;
+	border-bottom: 3px solid #333;
+	border-top: 3px solid #333;
+}
+
+.activities {
+	height: 70vh;
+}
+
+.activities + .education {
+	border-top: none;
+}
+
+.activities__list {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	grid-gap: 30px;
+}
+
+.activities__item:before {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: counter(activities);
+	counter-increment: activities;
+	font-size: 24px;
+	border-radius: 50%;
+	background-color: #333;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+}
+
+.activities__item {
+	width: 48%;
+	position: relative;
+	padding-top: 70px;
+	font-size: 32px;
+	font-weight: 500;
+	color: #333;
+}
+
+.education__list {
+	margin-top: 40px;
+}
+
+.education__item:not(:last-child):after {
+	display: block;
+	width: 20px;
+	content: "^";
+	transform: rotate(180deg);
+	font-size: 30px;
+	color: red;
+}
+
+.education__item {
+	font-size: 32px;
+	font-weight: 500;
+	color: #333;
+	margin: 20px 0;
+}
