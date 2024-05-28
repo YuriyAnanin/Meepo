@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Sono", sans-serif;
+}
+
+body {
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	grid-gap: 30px;
+	max-width: 1400px;
+	padding: 0 40px;
+	margin: 50px auto;
+}
+
+.item {
+	text-align: center;
+	color: #000;
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.name,
+.price {
+	font-weight: bold;
+}
+
+.name {
+	font-size: 24px;
+}
+
+.price {
+	font-size: 48px;
+	margin-top: 10px;
+	word-break: break-all;
+}
+
+.accesses {
+	margin-top: 10px;
+	line-height: 3;
+}
+
+.access-item:before {
+	content: "✅";
+}
+
+.access-item.not-available:before {
+	content: "🚫";
+}
+
+.sign-button {
+	background-color: orangered;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 7px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+@media (max-width: 1250px) {
+	.list {
+		flex-direction: column;
+		max-width: 450px;
+		padding: 0 20px;
+	}
+}
