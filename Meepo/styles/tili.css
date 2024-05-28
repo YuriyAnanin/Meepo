@@ -16,8 +16,6 @@ hr {
     justify-content: space-between;
     padding: 4px;
     margin: 0 auto;
-    background-image: url(../img/image.png);
-    background-repeat: no-repeat;
     background-color: #111516;
 
 }
@@ -93,6 +91,7 @@ hr {
     font-size: 16px;
     text-transform: uppercase;
     color: #969696;
+    text-align: center;
 }
 
 .roles {
@@ -101,8 +100,21 @@ hr {
     gap: 20px;
 }
 
+.roles-name {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 0px 1px #fff;
+}
+
 .right-sidebar {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+.indicators {
+    display: flex;
+    color: #fff;
+    line-height: 24px;
+    font-size: 16px;
 }
