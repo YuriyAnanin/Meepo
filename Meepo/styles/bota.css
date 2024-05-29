@@ -1,7 +1,19 @@
 @font-face {
     font-family: 'Reaver';
-    src: url('Reaver/ffonts.net.txt');
+    src: url('../Reaver/Reaver-Regular.woff');
     font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Reaver';
+    src: url('../Reaver/Reaver-SemiBold.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Reaver';
+    src: url('../Reaver/Reaver-Bold.woff');
+    font-weight: 700;
     font-style: normal;
 }
 body {
@@ -12,13 +24,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 100vh;
 }
 
 header {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 h1 {
