@@ -1,0 +1,122 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(
+		to right,
+		#00c6ff,
+		#0072ff
+	); /* Бирюзовый градиент */
+	color: white; /* Цвет текста белый для лучшей читаемости */
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.7); /* Прозрачный черный фон */
+	color: white;
+	padding: 1em 0;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 1em;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+section {
+	padding: 2em;
+
+	background-color: rgba(0, 0, 0, 0.7); /* Прозрачный черный фон */
+	border-bottom: 1px solid #ccc;
+}
+#about {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	gap: 80px;
+}
+#about p {
+	font-size: 20px;
+	font-weight: 600;
+}
+#about img {
+	width: 10%;
+}
+
+#skills {
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	gap: 40px;
+}
+.works {
+	background-color: teal;
+	padding: 40px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.skills-l {
+	background-color: teal;
+	padding: 40px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+h1,
+h2 {
+	color: white;
+}
+#projects {
+	gap: 40px;
+	display: flex;
+}
+#projects h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+.project {
+	flex: 1;
+}
+.project img {
+	width: 100%;
+}
+.project a {
+	color: white;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form label {
+	margin-top: 1em;
+}
+
+form input,
+form textarea {
+	padding: 0.5em;
+	margin-top: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
