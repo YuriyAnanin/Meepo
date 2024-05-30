@@ -1,0 +1,109 @@
+footer {
+	background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/grey_painterly.png');
+	background-size: cover;
+	padding: 80px 0px;
+}
+.footer-text {
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+	color: #ffff;
+}
+.footer-block-1 {
+	display: flex;
+	width: 54%;
+	flex-direction: column;
+}
+.video-meepo {
+	box-shadow: 3px 3px 8px black;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.footer-logo {
+	margin: 0 auto;
+	margin-top: -20px;
+	gap: 10px;
+	display: flex;
+	align-items: flex-start;
+}
+.footer-logo-img {
+	box-shadow: 0px 0px 10px black;
+	transition: 0.1s ease-in-out all;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	filter: grayscale(1);
+}
+.footer-logo-img:hover {
+	transform: scale(1.1);
+	filter: grayscale(0);
+}
+.footer-container {
+	display: flex;
+	gap: 20px;
+	padding: 0px 40px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.footer-section {
+	flex: 1;
+}
+.footer-section-1 {
+	color: #ffff;
+	padding: 18px;
+	display: flex;
+	background-color: #121212;
+}
+.footer-section-1 img {
+	width: 96px;
+	height: 96px;
+	box-shadow: 0px 0px 8px #000;
+}
+
+.footer-section-text {
+	margin-left: 23px;
+}
+.footer-section-text h3 {
+	color: #fff;
+	font-family: Reaver, serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.footer-section-text p {
+	color: #ddd;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.footer-section-2 {
+	background-color: #000;
+	color: #737373;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.footer-capabilities {
+	display: flex;
+	margin-bottom: 20px;
+}
+.footer-capabilities-item {
+	flex: 1;
+}
+.footer-quote {
+	font-style: italic;
+	background-color: #111;
+	color: #aaa;
+	padding: 10px;
+	font-size: 14px;
+}
+.color-white {
+	color: white;
+	font-weight: 600;
+}
